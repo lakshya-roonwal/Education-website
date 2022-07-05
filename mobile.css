@@ -1,0 +1,69 @@
+@media (max-width: 768px) {
+  header {
+    height: 50vh;
+    width: 100vw;
+  }
+  [data-scroll] {
+    transition: all 2s;
+  }
+  [data-scroll="in"] {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  [data-scroll="out"] {
+    opacity: 1;
+    transform: translateX(-0rem);
+  }
+  .courses-row {
+    flex-direction: column;
+  }
+  .courses-col {
+    width: 80%;
+  }
+  .courses-col img {
+    width: 7rem;
+  }
+  .testimonial-row {
+    flex-direction: column;
+  }
+  .testimonial-col {
+    width: 80%;
+    margin: 2vh 0;
+  }
+  .contact-us {
+    width: 90%;
+    margin: auto;
+  }
+  .contact-us .illustration .main-img {
+    height: 80%;
+    transform: translateY(0%);
+  }
+  .contact-us .illustration .main-img .contact-illustration {
+    height: 15vw;
+  }
+  .contact-us .illustration .main-img h3 {
+    font-size: 24px;
+  }
+  .contact-us .illustration .main-img p {
+    font-size: 16px;
+  }
+  .contact-form {
+    padding: 80px 40px;
+  }
+  .contact-form .form .name-form {
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-form .form .name-form input,
+  .contact-form .form input,
+  textarea {
+    margin: 0.5rem;
+    padding: 0.4rem;
+    width: 23vw;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid black;
+  }
+}
